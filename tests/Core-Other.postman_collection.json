@@ -52,6 +52,30 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "/api/v1/neexistuje",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{hostname}}/api/v1/neexistuje",
+					"protocol": "https",
+					"host": [
+						"{{hostname}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"connectors"
+					]
+				}
+			},
+			"response": []
 		}
+
 	]
 }
